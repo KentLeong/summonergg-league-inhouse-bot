@@ -1,0 +1,18 @@
+{
+  "name": "@summonergg/bot",
+  "scripts": {
+    "start": "ts-node --files src/app",
+    "test": "ts-node --files src/test"
+  },
+  "dependencies": {
+    "@summonergg/league-inhouse-api": "^1.0.14",
+    "@summonergg/league-inhouse-lobby-client": "^1.0.0",
+    "@summonergg/riot-api": "^3.0.1",
+    "chalk-logging": "^2.0.2",
+    "discord.js": "^12.5.2",
+    "dotenv": "^8.2.0",
+    "socket.io": "^4.0.1",
+    "socket.io-client": "^4.0.1"
+  },
+  "version": "0.0.0"
+}
