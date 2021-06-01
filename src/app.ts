@@ -61,6 +61,8 @@ client.on("message", async (msg: DiscordMessage) => {
     }, 1000)
     await c.exec(api).then((data: any) => {
       log.complete(command);
+    }).catch(err => {
+      console.error(err);
     })
   } else if (guild.channels.hosts.includes(msg.channel.id)) {
     setTimeout(() => {
